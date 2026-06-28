@@ -46,3 +46,28 @@ python detect.py --image sample_img/download.jpg --weights weights/best.pt
 ```
 
 ## Project Structure
+license-plate-detection/
+
+├── app.py                 # Streamlit live demo
+
+├── detect.py              # CLI detection script
+
+├── notebook.ipynb         # Colab notebook
+
+├── requirements.txt       # Dependencies
+
+├── weights/               # Place best.pt here
+
+│   └── README.md
+
+└── sample_img/
+
+├── download.jpg
+
+└── result.png
+
+## Author
+
+**Khawar Ali** — CS Student @ [CASE Islamabad](https://admissions.case.edu.pk/)
+AI/ML Intern @ [ZATNav Pvt. Ltd.](https://zatnav.com/)
+[GitHub](https://github.com/KhawarAli09)
