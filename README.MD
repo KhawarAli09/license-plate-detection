@@ -43,7 +43,23 @@ python detect.py --image sample_img/download.jpg --weights weights/best.pt
 ```
 
 ## Project Structure
+license-plate-detection/
 
+├── detect.py              # Main detection script
+
+├── notebook.ipynb         # Colab notebook
+
+├── requirements.txt       # Dependencies
+
+├── weights/               # Place best.pt here
+
+│   └── README.md
+
+└── sample_img/            # Test images
+
+├── download.jpg
+
+└── result.png
 
 ## Author
 
