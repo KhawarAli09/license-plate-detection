@@ -2,8 +2,8 @@
 
 Automatic license plate detection and text recognition using YOLOv8 and EasyOCR.
 
-![Demo](sample_images/download.jpg)
-![Demo](sample_images/result.jpg)
+![Demo](sample_img/download.jpg)
+![Demo](sample_img/result.jpg)
 
 ## What It Does
 
