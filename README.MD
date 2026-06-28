@@ -63,6 +63,6 @@ license-plate-detection/
 
 ## Author
 
-**Khawar Ali** — CS Student @ CASE Islamabad
-AI/ML Intern @ ZATNav Pvt. Ltd.
+**Khawar Ali** — CS Student @CASE Islamabad
+AI/ML Intern @ZATNav Pvt. Ltd.
 [GitHub](https://github.com/KhawarAli09)
