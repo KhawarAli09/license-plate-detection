@@ -2,8 +2,9 @@
 
 Automatic license plate detection and text recognition using YOLOv8 and EasyOCR.
 
-![Demo](sample_img/download.jpg)
-![Demo](sample_img/result.png)
+| Input | Output |
+|-------|--------|
+| <img src="sample_img/download.jpg" width="400"/> | <img src="sample_img/result.png" width="400"/> |
 
 ## What It Does
 
@@ -38,7 +39,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python detect.py --image sample_images/download.jpg --weights weights/best.pt
+python detect.py --image sample_img/download.jpg --weights weights/best.pt
 ```
 
 ## Project Structure
