@@ -2,8 +2,6 @@
 
 Automatic license plate detection and text recognition using YOLOv8 and EasyOCR.
 
-## 🚀 Live Demo
-👉 [Try it here](https://license-plate-detection-4ge7nskouecusqvmwzaf7q.streamlit.app/)
 
 | Input | Output |
 |-------|--------|
