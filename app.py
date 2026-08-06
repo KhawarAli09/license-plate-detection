@@ -60,7 +60,7 @@ if uploaded:
 
     with col2:
         st.markdown("**Detected Plate**")
-        st.image(annotated, use_column_width=True)
+        st.image(annotated, use_container_width=True)
 
     # OCR on each detected plate
     st.subheader("📋 Plate Text")
