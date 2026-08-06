@@ -56,7 +56,7 @@ if uploaded:
 
     with col1:
         st.markdown("**Input Image**")
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
 
     with col2:
         st.markdown("**Detected Plate**")
