@@ -19,7 +19,7 @@ st.title("🚗 License Plate Detection & OCR")
 st.markdown("Upload an image to **detect** and **read** the license plate automatically.")
 
 # Load models (cached so they don't reload every time)
-@st.cache_resource
+
 
 
 @st.cache_resource
