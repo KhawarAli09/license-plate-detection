@@ -68,7 +68,12 @@ if uploaded:
     plate_found = False
 
     for i, box in enumerate(results[0].boxes):
+
         x1, y1, x2, y2 = map(int, box.xyxy[0])
+
+        # YOLO detection confidence
+        yolo_confidence = float(box.conf[0]) * 100
+
         plate = image[y1:y2, x1:x2]
 
         if plate.size == 0:
@@ -88,6 +93,11 @@ if uploaded:
 
         if ocr_result:
             plate_found = True
+
+            st.info(
+            f"🎯 YOLO Detection Confidence: "
+            f"{yolo_confidence:.1f}%"
+            )
             for detection in ocr_result:
                 text = detection[1]
                 confidence = round(detection[2] * 100, 1)
